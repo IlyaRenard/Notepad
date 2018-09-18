@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Notepad</string>
+    <string name="action_about">О программе</string>
+    <string name="action_settings">Настройки</string>
+    <string name="action_mode_open">Режим открытия</string>
+    <string name="night_mode">Ночной режим</string>
+
+    <string name="action_color">Цвет</string>
+    <string name="action_color_black">Чёрный цвет</string>
+    <string name="action_color_green">Зелёный цвет</string>
+    <string name="action_color_red">Красный цвет</string>
+    <string name="action_color_blue">Синий цвет</string>
+
+
+    <string name="action_size">Размер</string>
+
+    <string name="action_style">Стиль</string>
+    <string name="action_bold">Полужирный</string>
+    <string name="action_regular">Нормальный</string>
+    <string name="action_italic">Курсив</string>
+    <string name="title_activity_settings">Settings</string>
+</resources>

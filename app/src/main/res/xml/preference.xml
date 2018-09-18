@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <PreferenceCategory android:title="Режимы" >
+
+        <SwitchPreference
+            android:key="@string/night_mode"
+            android:title="Ночной режим"
+            android:summary="Notepad переходит в ночной режим"
+
+            />
+
+        />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Настройка Шрифтов">
+        <EditTextPreference
+            android:defaultValue="14"
+            android:dialogTitle="Введите размер шрифта от 10 до 34"
+            android:key="@string/action_size"
+            android:summary="Устанавливает новый размер шрифта"
+            android:title="Размер шрифта"/>
+
+
+        <PreferenceScreen
+            android:key="@string/action_color"
+            android:title="Цвет текста"
+            android:summary="Устанавливает цвет текста">
+            <CheckBoxPreference
+                android:key="@string/action_color_black"
+                android:defaultValue="true"
+                android:title="Чёрный"
+                android:summary="Устанавливает чёрный цвет"
+                />
+            <CheckBoxPreference
+                android:key="@string/action_color_red"
+                android:title="Красный"
+                android:summary="Устанавливает красный цвет"
+                />
+            <CheckBoxPreference
+                android:key="@string/action_color_green"
+                android:title="Зелёный"
+                android:summary="Устанавливает зелёный цвет"
+                />
+            <CheckBoxPreference
+                android:key="@string/action_color_blue"
+                android:title="Синий"
+                android:summary="Устанавливает синий цвет"
+                />
+        </PreferenceScreen>
+    </PreferenceCategory>
+
+</PreferenceScreen>
